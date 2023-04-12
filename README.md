@@ -27,6 +27,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Portfolio
 The following image shows my portfolio's appearance and functionality:
-![Kai's portfolio](./Assets/image/Portfolio.gif)
+![Kai's portfolio](./assets/image/Portfolio.gif)
 
-[Link] (https://kzb11128.github.io/Challenge_02) to my portfolio
+[Link](https://kzb11128.github.io/Challenge_02) to my portfolio
