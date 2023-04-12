@@ -1,0 +1,187 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --white: white;
+    --purple: rgb(64, 80, 226);
+
+}
+
+/* Scrolls to sections within the webpage with click on links */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--black);
+  }
+
+
+main {
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: block;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    height: 500px;
+    background-color: transparent;
+    background-image: url("./header_background.jpg") /*Photo by Bruno Delebecque on Unsplash*/
+   
+  }
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: Roboto Condensed,Lato,Arial,sans-serif;
+  color: var(--black);
+  
+}
+
+
+
+header img {
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position: 100% 0;
+    transition: box-shadow;
+  }
+
+/* Header avator glows when hovered */
+header img:hover {
+  box-shadow: 2px 2px 8px 8px rgb(170, 240, 170);
+
+}
+
+nav {
+  background: var(--white);
+  margin-bottom: 0px;
+  }
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul li{
+  margin-right: 50px;
+  list-style-type: none;
+  font-size: 200%;
+}
+
+nav a { 
+  text-decoration: none;
+  color: var(--black);
+
+
+}
+
+/* When hovered, navigation link is highlighted */
+nav a:hover {
+  color: var(--white);
+  background: var(--black);
+
+}
+
+p {
+  color: var(--white);
+  font-size: 200%;
+
+}
+
+.projects {
+  background: var(--black);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: var(--purple);
+  margin-top: 10%;
+  font-size: 220%;
+  display: block;
+  position: relative;
+
+}
+
+
+
+.flex_projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+
+}
+
+figcaption {
+  color: var(--white);
+  font-size: 120%;
+
+}
+
+.animation {
+  width:600px;
+  height:200px;
+  object-fit: cover; 
+  margin-left: 0;
+
+}
+
+.dog {
+  width:300px;
+  height:200px;
+  object-fit: cover;
+  margin-left: 0;
+
+}
+
+.contact {
+  position: relative;
+
+}
+
+.contact ul{
+  list-style-type: none;
+
+}
+
+.contact_links a {
+  text-decoration: none;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+
+.github_icon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 0;
+  background: black;
+  
+}
+
+.ig_icon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 0;
+  
+}
+
+/* resolution is responsive to different screens */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+

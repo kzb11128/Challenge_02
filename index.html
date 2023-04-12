@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- What does the code below do? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>KAI's Portfolio</title>
+</head>
+
+<body>
+    <!-- Header with a welcome message and an avatar -->
+    <header class="header">
+        <h1><em>Welcome to my page!</em></h1>
+            <a href="#nav_section_below">
+                <img src="./assets/image/mambo_avatar.jpg" alt="image of a dog as profit picture">
+            </a>
+    </header>
+    
+    <!-- Navigation bar with links to sections of the webpage -->
+    <nav id="nav_section_below">
+        <ul> 
+            <li>
+                <a href="#about">about me</a>
+            </li>
+            <li>
+                <a href="#projects">projects</a>
+            </li>
+            <li>
+                <a href="#contact">contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main sections -->
+    <main>
+        <section id="about" class="about">
+            <h2 >
+                hi, I'm <em>Kai</em> 
+            </h2>
+            <p>
+                An aspiring software developer who has a cute Labradoodle named Mambo 🐶. 
+                I have always been fascinated by technology and decided to learn to code. 
+                I enrolled in a coding bootcamp and has been dedicating his time to mastering HTML / CSS / JavaScript.
+            </p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>
+                My works
+            </h2>
+            <div class="flex_projects">
+                <figure>
+                    <figcaption class="Refactor">Refactor assignment</figcaption>
+                    <a href="https://kzb11128.github.io/Challenge_01/#social-media-marketing">    
+                        <img class="animation" src="./assets/image/Horiseon.gif" alt="animation of a webpage that I refactored">
+                    </a>
+                </figure>
+                
+                <figure>
+                    <figcaption class="Instagram">Click on the picture bellow to see my dog's instagram 🐶</figcaption>
+                    <a href="https://www.instagram.com/mambothedood/?hl=en">    
+                        <img class="dog" src="./assets/image/imagetoinstagram.jpg" alt="Photo by Joe Caione on Unsplash - image of a dog">
+                    </a>
+            </figure>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>
+                Find me on:
+            </h2>
+            <ul class="contact_links">
+                <li>
+                    <img class="github_icon" src="./assets/css/github_icon3.png" alt="github icon">
+                    <a href="https://github.com/kzb11128">github.com/kzb11128</a>
+                </li>
+                <li>
+                    <img class="ig_icon" src="./assets/css/ig_icon.png" alt="Instagram icon">
+                    <a href="#mambo">@mambothedood</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
